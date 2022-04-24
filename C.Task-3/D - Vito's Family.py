@@ -98,9 +98,7 @@ for i in range(int(input())) :
         
     print(out)
             
-
-
-# # Another Good one
+# Right Solution 
 
 # Input Operation
 test = int(input())
