@@ -5,3 +5,9 @@ import sys
 n=int(sys.stdin.readline())
 str=sys.stdin.readline()
 # Output Operation
+if str.count("0")==str.count("1"):
+    print(2)
+    print(str[0],str[1:])
+else:
+    print(1)
+    print(str)
