@@ -6,9 +6,10 @@ n=int(sys.stdin.readline())
 a=list(map(int,sys.stdin.readline().split()))
 # input Operation End
 # Solution Start
-b=set(a)
-if n==len(b):
-    print("YES")
-else:
-    print("NO")
-
+out=0
+for i in range(n):
+    if a[a[a[i-1]-1]-1]==i:
+        print(i)
+        out=1
+        break
+print("YES") if out==1 else print("NO")
