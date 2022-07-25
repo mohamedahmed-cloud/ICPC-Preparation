@@ -1,0 +1,5 @@
+str1=input()
+str2=input()
+print(len(str1),len(str2))
+print(str1+str2)
+print(str2[0]+str1[1:],str1[0]+str2[1:])
