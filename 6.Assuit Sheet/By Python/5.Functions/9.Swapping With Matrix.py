@@ -11,9 +11,11 @@ for i in range(n):
     arr[i][x-1],arr[i][y-1]=arr[i][y-1],arr[i][x-1]
 # printing
 for i in arr:
+    s=""
     for j in i:
-        if j==i[-1]:
-            print(j,end="")
-        else:
-            print(j,end=" ")
-    print()
+        s+=str(j)+" "
+        # if j==i[-1]:
+        #     print(j,end="")
+        # else:
+        #     print(j,end=" ")
+    print(s.strip()) 
